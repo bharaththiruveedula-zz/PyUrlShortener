@@ -1,0 +1,20 @@
+ PyUrlShortener is a application for Url shortening using python and taking information from my php website http://pycutter.uphero.com
+
+   
+   //---------------//  
+  //  INSTALLATION //
+ //-------------- //
+
+To install PyUrlShortener enter the following command in the directory where pycutter is extracted:
+
+"$ sudo python setup.py install"
+
+that's it PyUrlShortener is installed on your linux machine
+
+for executing the PyUrlShortener
+enter
+ $ pycutter "http://URL"
+ In the next line your shorten url is displayed
+
+
+
