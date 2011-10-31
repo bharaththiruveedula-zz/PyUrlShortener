@@ -4,9 +4,9 @@ import os
 from distutils.core import setup
 
 setup (
-	name='pyurlcutter',
+	name='pyus',
 	version='1.0.0',
-	scripts=['pyurlcutter'],
+	scripts=['pyus'],
 	author='Bharath',
 	author_email='bharath_ves@hotmail.com',
 	description=' A simple URL Shortener',
