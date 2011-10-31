@@ -13,7 +13,7 @@ that's it PyUrlShortener is installed on your linux machine
 
 for executing the PyUrlShortener
 enter
- $ pyurlcutter "http://URL"
+ $ pyus "http://URL"
  In the next line your shorten url is displayed
 
 
