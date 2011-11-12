@@ -18,9 +18,9 @@ def error(err, value=1):
 def help():
 	text="""Usage: pycutter [URLs]
 Examples:
-$ pycutter
+$ pyus
     Display this dialog
-$ pycutter http://3novices.blogspot.com
+$ pyus http://3novices.blogspot.com
     Retrieve a shortened URL for 'http://3novices.blogspot.com'
 
 Hint:
