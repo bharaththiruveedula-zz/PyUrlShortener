@@ -7,7 +7,7 @@ def cuturl(input):
 	try:
 		response = urlopen('http://pycutter.uphero.com/add.php?url=' + input+'&shorten=click+here')
 	except Exception, e:
-		error('Could not connect to http://metamark.net/\nException: %s' % e)
+		error('Could not connect to http://pycutter.uphero.com \nException: %s' % e)
 	return response.read()
 
 def error(err, value=1):
@@ -34,7 +34,7 @@ def is_http(url):
 		if protocol != 'http':
 			error('Protocol %s is not supported' % protocol)
 	else:
-		url += 'http://'
+		url = 'http://'+url
 	return url
 
 if __name__ == '__main__':
